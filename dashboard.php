@@ -3,50 +3,59 @@ include_once("config/config.php");
 include_once("login_check.php");
 include_once("templates/header.php");?>
 <section id="form" class="bg-light-gray set_minimum_height">
-	<div class="container">
-    	<div class="row">
-        	<div class="col-xs-12">
-				<ul class="nav nav-tabs">
+  <div class="container">
+      <div class="row">
+          <div class="col-xs-12">
+        <ul class="nav nav-tabs">
                     <li class="active"><a data-toggle="tab" href="#calendar">Calendar</a></li>
-                    <li><a data-toggle="tab" href="#lecture">Lectures</a></li>
-                    <li><a data-toggle="tab" href="#guest">Guest Speakers</a></li>
-					<li><a data-toggle="tab" href="#intern">Internships/Opportunities</a></li>
-				</ul>
-				<div class="tab-content">
+         <!--            <li><a data-toggle="tab" href="#lecture">Lectures</a></li>
+         <li><a data-toggle="tab" href="#guest">Guest Speakers</a></li> -->
+  <!--         <li><a data-toggle="tab" href="#intern">Internships/Opportunities</a></li> -->
+        </ul>
+        <div class="tab-content">
                     <div id="calendar" class="tab-pane fade in active">
-                    	<div class="container">
-                        	<div class="row">
-                            	<div class="col-lg-12" align="center"><br/><h3 align="center">Welcome, <?php echo $_SESSION[SESSION_USERNAME];?>!!</h3><br/><br/></div>
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-lg-12" align="center"><br/><h3 align="center">Welcome, <?php echo $_SESSION[SESSION_USERNAME];?>!</h3><br/><br/></div>
                             </div>
-                        	<div class="row">
-                            	<div class="col-lg-7">
-                                	<div class="calendar">
-                                        <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=yaleudi%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style=" border:solid 1px #777 " width="650" height="400" frameborder="0" scrolling="no">
+                          <div class="row">
+                              <div class="col-lg-7">
+                                  <div class="calendar">
+                                        <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPriknt=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=yaleudi%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style=" border:solid 1px #777 " width="650" height="400" frameborder="0" scrolling="no">
                                         </iframe><br/><br/>
                                     </div>
                                     <div class="import" align="center">
-                                		<a href="assets/downloads/basic-2.ics"><button type="button" class="btn btn-primary btn-lg" >Import Calendar</button></a>
+                                    <a href="assets/downloads/basic-2.ics"><button type="button" class="btn btn-primary btn-lg" >Export Calendar</button></a>
                                     </div>
-								</div>
+                </div>
                                 <div class="col-lg-5">
-                                	<div class="announcements">
-                                    	<h2 align="center">ANNOUNCEMENTS</h2>
+                                  <div class="announcements">
+                                      <h2 align="center">ANNOUNCEMENTS</h2>
                                         <ul>
-                                        	<li>Potentially will add some announcements here</li>
-                                        	<li>Maybe superfluous with alertbar though</li>
-                                        	<li>Not sure how to deal with blank space</li>
+                                          <li>Education Meeting #1, Sept 24 @ 9pm</li>
+                                          <li>Education Meeting #2, Oct 1 @ 9pm</li>
+                                          <li>Competition Starts October 1st!</li>
                                         </ul>
                                     </div>
                                     <div class="marketwatch" align="center">
-										<button type="button" class="btn btn-primary btn-lg">Go To Market Watch</button>
+                                    <button type="button" class="btn btn-primary btn-lg" style="margin-bottom: 15px"><a href="http://www.marketwatch.com/game/yudi-stock-competition
+                " target="_blank" style='color: white;'>Go to MarketWatch</a></button>
+
+<!-- 
+                        <button type="button" class="btn btn-primary btn-lg"><a href="http://www.marketwatch.com/game/yudi-stock-competition
+                " target="_blank" style='color: white'>Go to MarketWatch</a></button>          -->
+
+                <button type="button" class="btn btn-primary btn-lg"><a href="
+https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmWmfY/edit#gid=0
+                " target="_blank" style='color: white'>Team Signup</a></button>
                                     </div>
                                 </div>
                             </div>
-						</div>
-                    	
+            </div>
+                      
                     </div>
                     <div id="lecture" class="tab-pane fade">
-                    	<div class="container text-center">
+                      <div class="container text-center">
         <div class="row">
               <div class="col-lg-12">
                 <h1 class="curriculum__head">Curriculum</h1>
@@ -221,7 +230,7 @@ include_once("templates/header.php");?>
       </div>
                     </div>
                     <div id="guest" class="tab-pane fade">
-						<div class="container">
+            <div class="container">
         <div class="row">
               <div class="col-lg-12 text-center">
                 <h1 class="team__head">Guest Lectures</h1>
@@ -306,13 +315,13 @@ include_once("templates/header.php");?>
         </div>
       </div>
                     </div>
-					<div id="intern" class="tab-pane fade">
-                    	<h3>Under development</h3>
+          <div id="intern" class="tab-pane fade">
+                      <h3>Under development</h3>
                     </div>
-				</div>
+        </div>
             </div>
         </div>
-	</div>
+  </div>
 </section>
     <!-- Olson Bio-->
         <div id="lecturer01" tabindex="-1" class="portfolio-modal modal fade">
