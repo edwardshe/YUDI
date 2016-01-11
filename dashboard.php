@@ -7,11 +7,12 @@ include_once("templates/header.php");?>
       <div class="row">
           <div class="col-xs-12">
         <ul class="nav nav-tabs">
-                    <li class="active"><a data-toggle="tab" href="#calendar">Calendar</a></li>
-         <!--            <li><a data-toggle="tab" href="#lecture">Lectures</a></li>
-         <li><a data-toggle="tab" href="#guest">Guest Speakers</a></li> -->
-  <!--         <li><a data-toggle="tab" href="#intern">Internships/Opportunities</a></li> -->
+            <li class="active"><a data-toggle="tab" href="#calendar">Calendar</a></li>
+            <li><a data-toggle="tab" href="#lecture">Lectures</a></li>
+            <li><a data-toggle="tab" href="#guest16">Guest Speakers</a></li>
+            <!--<li><a data-toggle="tab" href="#intern">Internships/Opportunities</a></li>-->
         </ul>
+
         <div class="tab-content">
                     <div id="calendar" class="tab-pane fade in active">
                       <div class="container">
@@ -54,14 +55,97 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
             </div>
                       
                     </div>
-                    <div id="lecture" class="tab-pane fade">
-                      <div class="container text-center">
-        <div class="row">
-              <div class="col-lg-12">
-                <h1 class="curriculum__head">Curriculum</h1>
-              </div>
-        </div>
-        <div class="row">
+
+
+        <div id="lecture" class="tab-pane fade">
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#lectureFreshman">Freshman</a></li>
+            <li><a data-toggle="tab" href="#lectureSophomore">Sophomore</a></li>
+            <li><a data-toggle="tab" href="#lectureJunior">Junior</a></li> 
+          </ul>
+
+
+          <div class="tab-content">
+          <div id="lectureFreshman" class="tab-pane fade in active container text-center">
+          <div class="row">
+                <div class="col-lg-12">
+                  <h1 class="curriculum__head">Freshman Curriculum</h1>
+                </div>
+          </div>
+                <div class="row">
+                <div class="col-lg-4 col-lg-offset-4">
+                  <div class="curriculum__head">
+                    <p class="curriculum__title">Fall 2015</p>
+                  </div>
+                </div>
+          </div><br>
+          <div class="row">
+                <div class="col-sm-3">
+                  <div class="team-member"><a><img src="assets/img/labels/stocks.jpg" alt="Introduction to the Basic Concepts of Finance" class="img-responsive faded"></a>
+                    <p class="black-text"><b>Introduction to Financial Markets</b></p>
+                    <div class="row">
+                      <div class="col-sm-4 col-sm-offset-1">
+                        <p><a href="lectures/Freshman1.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
+                        </p>
+                      </div>
+                      <div class="col-sm-2"></div>
+                      <div class="col-sm-4">
+                        <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="team-member"><a><img src="assets/img/labels/sprout.jpg" alt="Portfolio Construction and Management" class="img-responsive faded"></a>
+                    <p class="black-text"><b>Financial Career Services</b></p>
+                    <div class="row">
+                      <div class="col-sm-4 col-sm-offset-1">
+                        <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Slides</a>
+                        </p>
+                      </div>
+                      <div class="col-sm-2"></div>
+                      <div class="col-sm-4">
+                        <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="team-member"><a><img src="assets/img/labels/investing.jpg" alt="Introduction to the Basic Concepts of Finance" class="img-responsive faded"></a>
+                    <p class="black-text"><b>Investment Philosophy</b></p>
+                    <div class="row">
+                      <div class="col-sm-4 col-sm-offset-1">
+                        <p><a href="lectures/Freshman3.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
+                        </p>
+                      </div>
+                      <div class="col-sm-2"></div>
+                      <div class="col-sm-4">
+                        <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="team-member"><a><img src="assets/img/labels/managing.jpg" alt="Portfolio Construction and Management" class="img-responsive faded"></a>
+                    <p class="black-text"><b>Financial Statements</b></p>
+                    <div class="row">
+                      <div class="col-sm-4 col-sm-offset-1">
+                        <p><a href="lectures/Freshman4.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
+                        </p>
+                      </div>
+                      <div class="col-sm-2"></div>
+                      <div class="col-sm-4">
+                        <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+<!--        <div class="row">
               <div class="col-lg-4 col-lg-offset-4">
                 <div class="curriculum__head">
                   <p class="curriculum__title">Fall 2014</p>
@@ -103,8 +187,8 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                   </div>
                 </div>
               </div>
-        </div>
-        <div class="row">
+        </div> -->
+<!--        <div class="row">
               <div class="col-lg-4 col-lg-offset-4">
                 <div class="curriculum__head">
                   <p class="curriculum__title">Spring 2015</p>
@@ -226,10 +310,225 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                   </div>
                 </div>
               </div>
+        </div> -->
+      </div>
+      
+      <div id="lectureSophomore" class="tab-pane fade container text-center">
+          <div class="row">
+                <div class="col-lg-12">
+                  <h1 class="curriculum__head">Sophomore Curriculum</h1>
+                </div>
+          </div>
+                <div class="row">
+                <div class="col-lg-4 col-lg-offset-4">
+                  <div class="curriculum__head">
+                    <p class="curriculum__title">Fall 2015</p>
+                  </div>
+                </div>
+          </div><br>
+          <div class="row">
+                <div class="col-sm-3">
+                  <div class="team-member"><a><img src="assets/img/labels/stocks.jpg" alt="Introduction to the Basic Concepts of Finance" class="img-responsive faded"></a>
+                    <p class="black-text"><b>Introduction &#38; Finance Review</b></p>
+                    <div class="row">
+                      <div class="col-sm-4 col-sm-offset-1">
+                        <p><a href="lectures/Sophomore1.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
+                        </p>
+                      </div>
+                      <div class="col-sm-2"></div>
+                      <div class="col-sm-4">
+                        <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="team-member"><a><img src="assets/img/labels/sprout.jpg" alt="Portfolio Construction and Management" class="img-responsive faded"></a>
+                    <p class="black-text"><b>Portfolio Optimization</b></p>
+                    <div class="row">
+                      <div class="col-sm-4 col-sm-offset-1">
+                        <p><a href="lectures/Sophomore2.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
+                        </p>
+                      </div>
+                      <div class="col-sm-2"></div>
+                      <div class="col-sm-4">
+                        <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="team-member"><a><img src="assets/img/labels/investing.jpg" alt="Introduction to the Basic Concepts of Finance" class="img-responsive faded"></a>
+                    <p class="black-text"><b>Active Portfolio Management</b></p>
+                    <div class="row">
+                      <div class="col-sm-4 col-sm-offset-1">
+                        <p><a href="lectures/Sophomore3.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
+                        </p>
+                      </div>
+                      <div class="col-sm-2"></div>
+                      <div class="col-sm-4">
+                        <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="team-member"><a><img src="assets/img/labels/managing.jpg" alt="Portfolio Construction and Management" class="img-responsive faded"></a>
+                    <p class="black-text"><b>Fixed Income &#38; Credit</b></p>
+                    <div class="row">
+                      <div class="col-sm-4 col-sm-offset-1">
+                        <p><a href="lectures/Sophomore4.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
+                        </p>
+                      </div>
+                      <div class="col-sm-2"></div>
+                      <div class="col-sm-4">
+                        <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+      </div>
+
+      <div id="lectureJunior" class="tab-pane fade container text-center">
+          <div class="row">
+                <div class="col-lg-12">
+                  <h1 class="curriculum__head">Junior Curriculum</h1>
+                </div>
+          </div>
+                <div class="row">
+                <div class="col-lg-4 col-lg-offset-4">
+                  <div class="curriculum__head">
+                    <p class="curriculum__title">Fall 2015</p>
+                  </div>
+                </div>
+          </div><br>
+          <div class="row">
+                <div class="col-sm-3">
+                  <div class="team-member"><a><img src="assets/img/labels/stocks.jpg" alt="Introduction to the Basic Concepts of Finance" class="img-responsive faded"></a>
+                    <p class="black-text"><b>General &#38; Key Terminology</b></p>
+                    <div class="row">
+                      <div class="col-sm-4 col-sm-offset-1">
+                        <p><a href="lectures/Junior1.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
+                        </p>
+                      </div>
+                      <div class="col-sm-2"></div>
+                      <div class="col-sm-4">
+                        <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="team-member"><a><img src="assets/img/labels/sprout.jpg" alt="Portfolio Construction and Management" class="img-responsive faded"></a>
+                    <p class="black-text"><b>Accounting Statements</b></p>
+                    <div class="row">
+                      <div class="col-sm-4 col-sm-offset-1">
+                        <p><a href="lectures/Junior2.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
+                        </p>
+                      </div>
+                      <div class="col-sm-2"></div>
+                      <div class="col-sm-4">
+                        <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="team-member"><a><img src="assets/img/labels/investing.jpg" alt="Introduction to the Basic Concepts of Finance" class="img-responsive faded"></a>
+                    <p class="black-text"><b>Discounted Cash Flow Analysis</b></p>
+                    <div class="row">
+                      <div class="col-sm-4 col-sm-offset-1">
+                        <p><a href="lectures/Junior3.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
+                        </p>
+                      </div>
+                      <div class="col-sm-2"></div>
+                      <div class="col-sm-4">
+                        <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="team-member"><a><img src="assets/img/labels/managing.jpg" alt="Portfolio Construction and Management" class="img-responsive faded"></a>
+                    <p class="black-text"><b>LBO and M&#38;A Analyses</b></p>
+                    <div class="row">
+                      <div class="col-sm-4 col-sm-offset-1">
+                        <p><a href="lectures/Junior4.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
+                        </p>
+                      </div>
+                      <div class="col-sm-2"></div>
+                      <div class="col-sm-4">
+                        <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+      </div>
+
+      </div>
+      </div>
+
+
+
+
+        <div id="guest16" class="tab-pane fade">
+            <div class="container">
+        <div class="row">
+              <div class="col-lg-12 text-center">
+                <h1 class="team__head">Guest Lectures</h1>
+              </div>
+        </div>
+        <div class="row">
+              <div class="col-lg-4 col-lg-offset-4">
+                <div class="guest__header">
+                  <p class="guest__title">Spring 2016</p>
+                </div>
+              </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2"></div>
+              <div class="col-sm-2">
+                <div class="team-member"><a data-toggle="modal" href="#lecturer10" class="portfolio-link"><img alt="" src="assets/img/lectures/comingsoon.jpg" class="img-responsive img-circle"></a>
+                  <h4 class="lecture__h">TBA</h4>
+                  <!--<p class="lecture__p">CEO @ Wall Street Survivor<em></em></p>-->
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="team-member"><a data-toggle="modal" href="#lecturer11" class="portfolio-link"><img alt="" src="assets/img/lectures/comingsoon.jpg" class="img-responsive img-circle"></a>
+                  <h4 class="lecture__h">TBA</h4>
+                  <!--<p class="lecture__p">BDC @ Morgan Stanley, Merrill Lynch (past)<em></em></p>-->
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="team-member"><a data-toggle="modal" href="#lecturer12" class="portfolio-link"><img alt="" src="assets/img/lectures/comingsoon.jpg" class="img-responsive img-circle"></a>
+                  <h4 class="lecture__h">TBA</h4>
+                  <!--<p class="lecture__p">Managing Director @ Deutsche Bank<em></em></p>-->
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="team-member"><a data-toggle="modal" href="#lecturer13" class="portfolio-link"><img alt="" src="assets/img/lectures/comingsoon.jpg" class="img-responsive img-circle"></a>
+                  <h4 class="lecture__h">TBA</h4>
+                  <!--<p class="lecture__p">Managing Director @ Fidelity<em></em></p>-->
+                </div>
+              </div>
         </div>
       </div>
-                    </div>
-                    <div id="guest" class="tab-pane fade">
+    </div>
+
+
+
+
+<!--                    <div id="guest" class="tab-pane fade">
             <div class="container">
         <div class="row">
               <div class="col-lg-12 text-center">
@@ -314,7 +613,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
               </div>
         </div>
       </div>
-                    </div>
+                    </div> -->
           <div id="intern" class="tab-pane fade">
                       <h3>Under development</h3>
                     </div>
@@ -323,6 +622,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
         </div>
   </div>
 </section>
+
     <!-- Olson Bio-->
         <div id="lecturer01" tabindex="-1" class="portfolio-modal modal fade">
           <div class="modal-content">
@@ -589,4 +889,128 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
             </div>
           </div>
         </div>
+    <!-- Coming soon Bio-->
+        <!--<div id="lecturer10" tabindex="-1" class="portfolio-modal modal fade">
+          <div class="modal-content">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                  <h1>Keith Zusi</h1>
+                  <h4>S&amp;T @ Goldman Sachs</h4>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="modal-body"><img alt="Keith Zusi" src="assets/img/lectures/zusi.jpg" class="img-thumbnail photoframe"></div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="modal-body text-left">
+                    <p>Keith, like both his parents, was born and raised in Summit, NJ where he graduated from Summit High School in 1985. Keith graduated from the University of Arizona with a BS in Finance and a BS in Real Estate. He began his career in finance in 1990 with National Westminster Bank in New York; he spent time in the real estate, corporate finance & private wealth groups. In 1993, he joined BDS Securities Corp., a small broker dealer, as a salesman and in 1996, Keith joined Amroc Investments, the precursor to Avenue Investments, to work for Marc Lasry. Three years later, in 1999, Keith joined Salomon, Smith Barney (now Citigroup) to help start their Distressed Investing Group. In 2004, Keith was hired by Goldman Sachs to work in their Bank Loan Group where he is currently employed. In addition to his normal job responsibilities, Keith is involved in the on campus Goldman recruiting process for summer and full time analysts & associates as well as the Take Your Child to Work & the Community Teamworks Programs.</p>
+                    <p>Keith, his wife of over twenty years and 4 children live several blocks from where he grew up as a child. The Summit community is a very significant part of his and his family’s lives. His oldest daughter graduated from Washington & Lee University in Lexington, Va & second daughter is currently a junior at Colby College in Maine. His two sons are in high school at the Pingry School in Martinsville, NJ. </p>
+                    <p>Some of the community groups he has or is currently serving on include: The Summit Police Athletic League – President, Summit Jr. Baseball – President, Speak Up Summit – Board Member, Keith has served over 30 seasons as a youth football & baseball coach, he has served on the election committees of several local politicians, The Beacon Hill Club – Trustee, Summit Republican Convention Committee – member, Sigma Chi alumni advisor. In addition, Keith has been honored by the Boy Scouts of America & the City of Summit for his citizenship and contributions to his community as well as the University of Arizona’s business school – Mentor of the Year award. Finally, there are many other philanthropic & community groups Keith has participated as a volunteer for various projects & fundraisers over the years.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-lg-offset-4">
+                  <button data-dismiss="modal" type="button" class="btn btn-primary btn-lg">Back</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+    <!-- Coming soon Bio-->
+        <!--<div id="lecturer11" tabindex="-1" class="portfolio-modal modal fade">
+          <div class="modal-content">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                  <h1>Keith Zusi</h1>
+                  <h4>S&amp;T @ Goldman Sachs</h4>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="modal-body"><img alt="Keith Zusi" src="assets/img/lectures/zusi.jpg" class="img-thumbnail photoframe"></div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="modal-body text-left">
+                    <p>Keith, like both his parents, was born and raised in Summit, NJ where he graduated from Summit High School in 1985. Keith graduated from the University of Arizona with a BS in Finance and a BS in Real Estate. He began his career in finance in 1990 with National Westminster Bank in New York; he spent time in the real estate, corporate finance & private wealth groups. In 1993, he joined BDS Securities Corp., a small broker dealer, as a salesman and in 1996, Keith joined Amroc Investments, the precursor to Avenue Investments, to work for Marc Lasry. Three years later, in 1999, Keith joined Salomon, Smith Barney (now Citigroup) to help start their Distressed Investing Group. In 2004, Keith was hired by Goldman Sachs to work in their Bank Loan Group where he is currently employed. In addition to his normal job responsibilities, Keith is involved in the on campus Goldman recruiting process for summer and full time analysts & associates as well as the Take Your Child to Work & the Community Teamworks Programs.</p>
+                    <p>Keith, his wife of over twenty years and 4 children live several blocks from where he grew up as a child. The Summit community is a very significant part of his and his family’s lives. His oldest daughter graduated from Washington & Lee University in Lexington, Va & second daughter is currently a junior at Colby College in Maine. His two sons are in high school at the Pingry School in Martinsville, NJ. </p>
+                    <p>Some of the community groups he has or is currently serving on include: The Summit Police Athletic League – President, Summit Jr. Baseball – President, Speak Up Summit – Board Member, Keith has served over 30 seasons as a youth football & baseball coach, he has served on the election committees of several local politicians, The Beacon Hill Club – Trustee, Summit Republican Convention Committee – member, Sigma Chi alumni advisor. In addition, Keith has been honored by the Boy Scouts of America & the City of Summit for his citizenship and contributions to his community as well as the University of Arizona’s business school – Mentor of the Year award. Finally, there are many other philanthropic & community groups Keith has participated as a volunteer for various projects & fundraisers over the years.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-lg-offset-4">
+                  <button data-dismiss="modal" type="button" class="btn btn-primary btn-lg">Back</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+    <!-- Coming soon Bio-->
+        <!--<div id="lecturer12" tabindex="-1" class="portfolio-modal modal fade">
+          <div class="modal-content">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                  <h1>Keith Zusi</h1>
+                  <h4>S&amp;T @ Goldman Sachs</h4>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="modal-body"><img alt="Keith Zusi" src="assets/img/lectures/zusi.jpg" class="img-thumbnail photoframe"></div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="modal-body text-left">
+                    <p>Keith, like both his parents, was born and raised in Summit, NJ where he graduated from Summit High School in 1985. Keith graduated from the University of Arizona with a BS in Finance and a BS in Real Estate. He began his career in finance in 1990 with National Westminster Bank in New York; he spent time in the real estate, corporate finance & private wealth groups. In 1993, he joined BDS Securities Corp., a small broker dealer, as a salesman and in 1996, Keith joined Amroc Investments, the precursor to Avenue Investments, to work for Marc Lasry. Three years later, in 1999, Keith joined Salomon, Smith Barney (now Citigroup) to help start their Distressed Investing Group. In 2004, Keith was hired by Goldman Sachs to work in their Bank Loan Group where he is currently employed. In addition to his normal job responsibilities, Keith is involved in the on campus Goldman recruiting process for summer and full time analysts & associates as well as the Take Your Child to Work & the Community Teamworks Programs.</p>
+                    <p>Keith, his wife of over twenty years and 4 children live several blocks from where he grew up as a child. The Summit community is a very significant part of his and his family’s lives. His oldest daughter graduated from Washington & Lee University in Lexington, Va & second daughter is currently a junior at Colby College in Maine. His two sons are in high school at the Pingry School in Martinsville, NJ. </p>
+                    <p>Some of the community groups he has or is currently serving on include: The Summit Police Athletic League – President, Summit Jr. Baseball – President, Speak Up Summit – Board Member, Keith has served over 30 seasons as a youth football & baseball coach, he has served on the election committees of several local politicians, The Beacon Hill Club – Trustee, Summit Republican Convention Committee – member, Sigma Chi alumni advisor. In addition, Keith has been honored by the Boy Scouts of America & the City of Summit for his citizenship and contributions to his community as well as the University of Arizona’s business school – Mentor of the Year award. Finally, there are many other philanthropic & community groups Keith has participated as a volunteer for various projects & fundraisers over the years.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-lg-offset-4">
+                  <button data-dismiss="modal" type="button" class="btn btn-primary btn-lg">Back</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+    <!-- Coming soon Bio-->
+        <!--<div id="lecturer13" tabindex="-1" class="portfolio-modal modal fade">
+          <div class="modal-content">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                  <h1>Keith Zusi</h1>
+                  <h4>S&amp;T @ Goldman Sachs</h4>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="modal-body"><img alt="Keith Zusi" src="assets/img/lectures/zusi.jpg" class="img-thumbnail photoframe"></div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="modal-body text-left">
+                    <p>Keith, like both his parents, was born and raised in Summit, NJ where he graduated from Summit High School in 1985. Keith graduated from the University of Arizona with a BS in Finance and a BS in Real Estate. He began his career in finance in 1990 with National Westminster Bank in New York; he spent time in the real estate, corporate finance & private wealth groups. In 1993, he joined BDS Securities Corp., a small broker dealer, as a salesman and in 1996, Keith joined Amroc Investments, the precursor to Avenue Investments, to work for Marc Lasry. Three years later, in 1999, Keith joined Salomon, Smith Barney (now Citigroup) to help start their Distressed Investing Group. In 2004, Keith was hired by Goldman Sachs to work in their Bank Loan Group where he is currently employed. In addition to his normal job responsibilities, Keith is involved in the on campus Goldman recruiting process for summer and full time analysts & associates as well as the Take Your Child to Work & the Community Teamworks Programs.</p>
+                    <p>Keith, his wife of over twenty years and 4 children live several blocks from where he grew up as a child. The Summit community is a very significant part of his and his family’s lives. His oldest daughter graduated from Washington & Lee University in Lexington, Va & second daughter is currently a junior at Colby College in Maine. His two sons are in high school at the Pingry School in Martinsville, NJ. </p>
+                    <p>Some of the community groups he has or is currently serving on include: The Summit Police Athletic League – President, Summit Jr. Baseball – President, Speak Up Summit – Board Member, Keith has served over 30 seasons as a youth football & baseball coach, he has served on the election committees of several local politicians, The Beacon Hill Club – Trustee, Summit Republican Convention Committee – member, Sigma Chi alumni advisor. In addition, Keith has been honored by the Boy Scouts of America & the City of Summit for his citizenship and contributions to his community as well as the University of Arizona’s business school – Mentor of the Year award. Finally, there are many other philanthropic & community groups Keith has participated as a volunteer for various projects & fundraisers over the years.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-lg-offset-4">
+                  <button data-dismiss="modal" type="button" class="btn btn-primary btn-lg">Back</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
 <?php include_once("templates/footer.php");?>
