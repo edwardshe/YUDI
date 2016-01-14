@@ -84,7 +84,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                   <div class="team-member"><a><img src="assets/img/logos/yudi.png" alt="Introduction to the Basic Concepts of Finance" class="img-responsive faded"></a>
                     <div class="titleBox"><p class="black-text"><b>Introduction to Financial Markets</b></p></div>
                     <div class="row">
-                      <div class="col-sm-4 col-sm-offset-1">
+                      <div class="col-sm-4 col-sm-offset-3">
                         <p><a href="lectures/Freshman1.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a></p>
                       </div>
                       <!--<div class="col-sm-1"></div>
@@ -99,7 +99,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                   <div class="team-member"><a><img src="assets/img/logos/yudi.png" alt="Portfolio Construction and Management" class="img-responsive faded"></a>
                     <div class="titleBox"><p class="black-text"><b>Financial Career Services</b></p></div>
                     <div class="row">
-                      <div class="col-sm-4 col-sm-offset-1">
+                      <div class="col-sm-4 col-sm-offset-3">
                         <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
@@ -115,7 +115,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                   <div class="team-member"><a><img src="assets/img/logos/yudi.png" alt="Introduction to the Basic Concepts of Finance" class="img-responsive faded"></a>
                     <div class="titleBox"><p class="black-text"><b>Investment Philosophy</b></p></div>
                     <div class="row">
-                      <div class="col-sm-4 col-sm-offset-1">
+                      <div class="col-sm-4 col-sm-offset-3">
                         <p><a href="lectures/Freshman3.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
@@ -131,7 +131,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                   <div class="team-member"><a><img src="assets/img/logos/yudi.png" alt="Portfolio Construction and Management" class="img-responsive faded"></a>
                     <div class="titleBox"><p class="black-text"><b>Financial Statements</b></p></div>
                     <div class="row">
-                      <div class="col-sm-4 col-sm-offset-1">
+                      <div class="col-sm-4 col-sm-offset-3">
                         <p><a href="lectures/Freshman4.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
@@ -157,7 +157,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                 <div class="team-member"><a><img src="assets/img/labels/stocks.jpg" alt="Introduction to the Basic Concepts of Finance" class="img-responsive faded"></a>
                   <p class="black-text"><b>Introduction to the Basic Concepts of Finance</b></p>
                   <div class="row">
-                    <div class="col-sm-4 col-sm-offset-1">
+                    <div class="col-sm-4 col-sm-offset-3">
                       <p><a href="lectures/lecture1.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
                       </p>
                     </div>
@@ -174,7 +174,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                 <div class="team-member"><a><img src="assets/img/labels/sprout.jpg" alt="Portfolio Construction and Management" class="img-responsive faded"></a>
                   <p class="black-text"><b>Portfolio Construction and Management</b></p>
                   <div class="row">
-                    <div class="col-sm-4 col-sm-offset-1">
+                    <div class="col-sm-4 col-sm-offset-3">
                       <p><a href="lectures/lecture2.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
                       </p>
                     </div>
@@ -199,7 +199,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                 <div class="team-member"><a><img src="assets/img/labels/wall_street.jpg" alt="Developing Investment Strategy" class="img-responsive faded"></a>
                   <p class="black-text"><b>Developing Investment Strategy</b></p>
                   <div class="row">
-                    <div class="col-sm-4 col-sm-offset-1">
+                    <div class="col-sm-4 col-sm-offset-3">
                       <p><a href="lectures/lecture3.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
                       </p>
                     </div>
@@ -215,7 +215,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                 <div class="team-member"><a><img src="assets/img/labels/balance.jpg" alt="Interpreting SEC Filings: Intro" class="img-responsive faded"></a>
                   <p class="black-text"><b>Interpreting SEC Filings: Intro</b></p>
                   <div class="row">
-                    <div class="col-sm-4 col-sm-offset-1">
+                    <div class="col-sm-4 col-sm-offset-3">
                       <p><a href="lectures/lecture4.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
                       </p>
                     </div>
@@ -231,7 +231,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                 <div class="team-member"><a><img src="assets/img/labels/cash.jpg" alt="Fundamental vs Technical Analysis" class="img-responsive faded"></a>
                   <p class="black-text"><b>Fundamental vs Technical Analysis</b></p>
                   <div class="row">
-                    <div class="col-sm-4 col-sm-offset-1">
+                    <div class="col-sm-4 col-sm-offset-3">
                       <p><a href="#" disabled="disabled" role="button" class="btn btn-primary">Slides</a>
                       </p>
                     </div>
@@ -247,7 +247,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                 <div class="team-member"><a><img src="assets/img/labels/managing.jpg" alt="Discounted Cash Flow: Intro" class="img-responsive faded"></a>
                   <p class="black-text"><b>Discounted Cash Flow: Intro</b></p>
                   <div class="row">
-                    <div class="col-sm-4 col-sm-offset-1">
+                    <div class="col-sm-4 col-sm-offset-3">
                       <p><a href="#" disabled="disabled" role="button" class="btn btn-primary">Slides</a>
                       </p>
                     </div>
@@ -265,7 +265,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                 <div class="team-member"><a><img src="assets/img/labels/techan.jpg" alt="Deeper Understanding of Technical Analysis" class="img-responsive faded"></a>
                   <p class="black-text"><b>Deeper Understanding of Technical Analysis</b></p>
                   <div class="row">
-                    <div class="col-sm-4 col-sm-offset-1">
+                    <div class="col-sm-4 col-sm-offset-3">
                       <p><a href="#" disabled="disabled" role="button" class="btn btn-primary">Slides</a>
                       </p>
                     </div>
@@ -281,7 +281,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                 <div class="team-member"><a><img src="assets/img/labels/investing.jpg" alt="Investing in Diversified Markets" class="img-responsive faded"></a>
                   <p class="black-text"><b>Investing in Diversified Markets</b></p>
                   <div class="row">
-                    <div class="col-sm-4 col-sm-offset-1">
+                    <div class="col-sm-4 col-sm-offset-3">
                       <p><a href="#" disabled="disabled" role="button" class="btn btn-primary">Slides</a>
                       </p>
                     </div>
@@ -297,7 +297,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                 <div class="team-member"><a><img src="assets/img/labels/man_walking.jpg" alt="Managing Money and Expectations" class="img-responsive faded"></a>
                   <p class="black-text"><b>Managing Money and Expectations</b></p>
                   <div class="row">
-                    <div class="col-sm-4 col-sm-offset-1">
+                    <div class="col-sm-4 col-sm-offset-3">
                       <p><a href="#" disabled="disabled" role="button" class="btn btn-primary">Slides</a>
                       </p>
                     </div>
@@ -330,7 +330,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                   <div class="team-member"><a><img src="assets/img/logos/yudi.png" alt="Introduction to the Basic Concepts of Finance" class="img-responsive faded"></a>
                     <div class="titleBox"><p class="black-text"><b>Introduction &#38; Finance Review</b></p></div>
                     <div class="row">
-                      <div class="col-sm-4 col-sm-offset-1">
+                      <div class="col-sm-4 col-sm-offset-3">
                         <p><a href="lectures/Sophomore1.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
@@ -346,7 +346,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                   <div class="team-member"><a><img src="assets/img/logos/yudi.png" alt="Portfolio Construction and Management" class="img-responsive faded"></a>
                     <div class="titleBox"><p class="black-text"><b>Portfolio Optimization</b></p></div>
                     <div class="row">
-                      <div class="col-sm-4 col-sm-offset-1">
+                      <div class="col-sm-4 col-sm-offset-3">
                         <p><a href="lectures/Sophomore2.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
@@ -362,7 +362,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                   <div class="team-member"><a><img src="assets/img/logos/yudi.png" alt="Introduction to the Basic Concepts of Finance" class="img-responsive faded"></a>
                     <div class="titleBox"><p class="black-text"><b>Active Portfolio Management</b></p></div>
                     <div class="row">
-                      <div class="col-sm-4 col-sm-offset-1">
+                      <div class="col-sm-4 col-sm-offset-3">
                         <p><a href="lectures/Sophomore3.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
@@ -378,7 +378,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                   <div class="team-member"><a><img src="assets/img/logos/yudi.png" alt="Portfolio Construction and Management" class="img-responsive faded"></a>
                     <div class="titleBox"><p class="black-text"><b>Fixed Income &#38; Credit</b></p></div>
                     <div class="row">
-                      <div class="col-sm-4 col-sm-offset-1">
+                      <div class="col-sm-4 col-sm-offset-3">
                         <p><a href="lectures/Sophomore4.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
@@ -411,7 +411,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                   <div class="team-member"><a><img src="assets/img/logos/yudi.png" alt="Introduction to the Basic Concepts of Finance" class="img-responsive faded"></a>
                     <div class="titleBox"><p class="black-text"><b>General &#38; Key Terminology</b></p></div>
                     <div class="row">
-                      <div class="col-sm-4 col-sm-offset-1">
+                      <div class="col-sm-4 col-sm-offset-3">
                         <p><a href="lectures/Junior1.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
@@ -427,7 +427,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                   <div class="team-member"><a><img src="assets/img/logos/yudi.png" alt="Portfolio Construction and Management" class="img-responsive faded"></a>
                     <div class="titleBox"><p class="black-text"><b>Accounting Statements</b></p></div>
                     <div class="row">
-                      <div class="col-sm-4 col-sm-offset-1">
+                      <div class="col-sm-4 col-sm-offset-3">
                         <p><a href="lectures/Junior2.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
@@ -443,7 +443,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                   <div class="team-member"><a><img src="assets/img/logos/yudi.png" alt="Introduction to the Basic Concepts of Finance" class="img-responsive faded"></a>
                     <div class="titleBox"><p class="black-text"><b>Discounted Cash Flow Analysis</b></p></div>
                     <div class="row">
-                      <div class="col-sm-4 col-sm-offset-1">
+                      <div class="col-sm-4 col-sm-offset-3">
                         <p><a href="lectures/Junior3.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
@@ -459,7 +459,7 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                   <div class="team-member"><a><img src="assets/img/logos/yudi.png" alt="Portfolio Construction and Management" class="img-responsive faded"></a>
                     <div class="titleBox"><p class="black-text"><b>LBO and M&#38;A Analyses</b></p></div>
                     <div class="row">
-                      <div class="col-sm-4 col-sm-offset-1">
+                      <div class="col-sm-4 col-sm-offset-3">
                         <p><a href="lectures/Junior4.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
