@@ -1,7 +1,6 @@
 <?php 
-//include_once("config/config.php");
-//include_once("login_check.php");
-
+include_once("config/config.php");
+include_once("login_check.php");
 include_once("templates/header.php");?>
 <section id="form" class="bg-light-gray set_minimum_height">
   <div class="container">
@@ -34,9 +33,9 @@ include_once("templates/header.php");?>
                                   <div class="announcements">
                                       <h2 align="center">ANNOUNCEMENTS</h2>
                                         <ul>
-                                          <li>Education Meeting #1, Sept 24 @ 9pm</li>
-                                          <li>Education Meeting #2, Oct 1 @ 9pm</li>
-                                          <li>Competition Starts October 1st!</li>
+                                          <li>Education Meeting Second Semester #1: January 21st</li>
+                                          <li>Firm Visits &#38; Speaker Events to be announced soon!</li>
+                                          <li>Internship Database and Opporutnities available soon!</li>
                                         </ul>
                                     </div>
                                     <div class="marketwatch" align="center">
@@ -88,11 +87,11 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                       <div class="col-sm-4 col-sm-offset-1">
                         <p><a href="lectures/Freshman1.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a></p>
                       </div>
-                      <div class="col-sm-1"></div>
+                      <!--<div class="col-sm-1"></div>
                       <div class="col-sm-4">
                         <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
                         </p>
-                      </div>
+                      </div>-->
                     </div>
                   </div>
                 </div>
@@ -104,11 +103,11 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                         <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
-                      <div class="col-sm-1"></div>
+                      <!--<div class="col-sm-1"></div>
                       <div class="col-sm-4">
                         <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
                         </p>
-                      </div>
+                      </div>-->
                     </div>
                   </div>
                 </div>
@@ -120,11 +119,11 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                         <p><a href="lectures/Freshman3.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
-                      <div class="col-sm-1"></div>
+                      <!--<div class="col-sm-1"></div>
                       <div class="col-sm-4">
                         <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
                         </p>
-                      </div>
+                      </div>-->
                     </div>
                   </div>
                 </div>
@@ -136,11 +135,11 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                         <p><a href="lectures/Freshman4.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
-                      <div class="col-sm-1"></div>
+                      <!--<div class="col-sm-1"></div>
                       <div class="col-sm-4">
                         <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
                         </p>
-                      </div>
+                      </div>-->
                     </div>
                   </div>
                 </div>
@@ -335,11 +334,11 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                         <p><a href="lectures/Sophomore1.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
-                      <div class="col-sm-1"></div>
+                      <!--<div class="col-sm-1"></div>
                       <div class="col-sm-4">
                         <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
                         </p>
-                      </div>
+                      </div>-->
                     </div>
                   </div>
                 </div>
@@ -351,11 +350,11 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                         <p><a href="lectures/Sophomore2.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
-                      <div class="col-sm-1"></div>
+                      <!--<div class="col-sm-1"></div>
                       <div class="col-sm-4">
                         <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
                         </p>
-                      </div>
+                      </div>-->
                     </div>
                   </div>
                 </div>
@@ -367,11 +366,11 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                         <p><a href="lectures/Sophomore3.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
-                      <div class="col-sm-1"></div>
+                      <!--<div class="col-sm-1"></div>
                       <div class="col-sm-4">
                         <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
                         </p>
-                      </div>
+                      </div>-->
                     </div>
                   </div>
                 </div>
@@ -383,11 +382,11 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                         <p><a href="lectures/Sophomore4.pptx" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
-                      <div class="col-sm-1"></div>
+                      <!--<div class="col-sm-1"></div>
                       <div class="col-sm-4">
                         <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
                         </p>
-                      </div>
+                      </div>-->
                     </div>
                   </div>
                 </div>
@@ -416,11 +415,11 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                         <p><a href="lectures/Junior1.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
-                      <div class="col-sm-1"></div>
+                      <!--<div class="col-sm-1"></div>
                       <div class="col-sm-4">
                         <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
                         </p>
-                      </div>
+                      </div>-->
                     </div>
                   </div>
                 </div>
@@ -432,11 +431,11 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                         <p><a href="lectures/Junior2.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
-                      <div class="col-sm-1"></div>
+                      <!--<div class="col-sm-1"></div>
                       <div class="col-sm-4">
                         <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
                         </p>
-                      </div>
+                      </div>-->
                     </div>
                   </div>
                 </div>
@@ -448,11 +447,11 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                         <p><a href="lectures/Junior3.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
-                      <div class="col-sm-1"></div>
+                      <!--<div class="col-sm-1"></div>
                       <div class="col-sm-4">
                         <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
                         </p>
-                      </div>
+                      </div>-->
                     </div>
                   </div>
                 </div>
@@ -464,11 +463,11 @@ https://docs.google.com/spreadsheets/d/1piSihMfBRyU5_cSrXENGnccVHplId6ohHI4ujhmW
                         <p><a href="lectures/Junior4.pdf" target="_blank" role="button" class="btn btn-primary">Slides</a>
                         </p>
                       </div>
-                      <div class="col-sm-1"></div>
+                      <!--<div class="col-sm-1"></div>
                       <div class="col-sm-4">
                         <p><a disabled="disabled" href="#" role="button" class="btn btn-primary">Video</a>
                         </p>
-                      </div>
+                      </div>-->
                     </div>
                   </div>
                 </div>
