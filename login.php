@@ -34,22 +34,3 @@ include_once("config/config.php");
     </div>
     </section>
 <?php include_once("templates/footer.php");?>
-
-<script src="jquery-1.12.0.min.js"></script>
-<script type="text/javascript">
-    $.fn.setCursorPosition = function (pos) {
-    this.each(function (index, elem) {
-        if (elem.setSelectionRange) {
-            elem.setSelectionRange(pos, pos);
-        } else if (elem.createTextRange) {
-            var range = elem.createTextRange();
-            range.collapse(true);
-            range.moveEnd('character', pos);
-            range.moveStart('character', pos);
-            range.select();
-        }
-    });
-    return this;
-};
-    $('input[name=password]').focus().setCursorPosition(5);
-</script>
