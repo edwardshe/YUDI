@@ -23,10 +23,10 @@ include_once("templates/header.php");?>
                                     <input class="form-control" placeholder="Email-ID" name="email" id="email" type="text" autofocus>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="Password" name="password" id="password" type="password" value="">
+                                    <input style="padding-top:0px;padding-bottom:0px;height:48px" class="form-control" placeholder="Password" name="password" id="password" type="password" value="">
                                 </div>
 								<div class="form-group">
-                                    <input class="form-control" placeholder="Confirm Password" name="cpassword" id="cpassword" type="password" value="">
+                                    <input style="padding-top:0px;padding-bottom:0px;height:48px" class="form-control" placeholder="Confirm Password" name="cpassword" id="cpassword" type="password" value="">
                                 </div>
 								<div class="form-group">
                                     <input class="form-control" placeholder="Registration Code" name="regcode" id="regcode" type="text" value="">
