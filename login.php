@@ -1,5 +1,5 @@
 <?php
-include_once("config/config.php");
+//include_once("config/config.php");
  include_once("templates/header.php");?>
     <section id="form" class="bg-light-gray bkg_login_register set_minimum_height">
 		<div class="container">
@@ -17,7 +17,7 @@ include_once("config/config.php");
                                     <input class="form-control" placeholder="Email-ID" name="email" id="email" type="text" autofocus>
                                 </div>
 								<div class="form-group">
-                                    <input style="padding-top:0px;padding-bottom:0px;height:48px" class="form-control" placeholder="Password" name="text" id="password" type="password" autofocus>
+                                    <input style="padding-top:0px;padding-bottom:0px;height:48px" class="form-control" placeholder="Password" name="password" id="password" type="password" autofocus>
                                 </div>
 								<div class="form-group">
                                     <input class="btn btn-lg btn-success btn-block" name="btn_login" id="btn_login" type="submit" value="Submit" />
