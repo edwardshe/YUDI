@@ -1,5 +1,5 @@
 <?php
-//include_once("config/config.php");
+include_once("config/config.php");
  include_once("templates/header.php");?>
     <section id="form" class="bg-light-gray bkg_login_register set_minimum_height">
 		<div class="container">
